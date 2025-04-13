@@ -223,16 +223,16 @@ def renderPerson(root, person, path):
       (
           f'<td rowspan="3" width="{picsize[0]}" height="{picsize[1]}" fixedsize="true"><img src="pics/{pic}" scale="TRUE"></img></td>'
           if pic else
-          f'<td rowspan="3" width="{picsize[0]}" height="{picsize[1]}" fixedsize="true" bgcolor="#eeeeee"></td>'
+          f'<td rowspan="3" width="{picsize[0]}" height="{picsize[1]}" fixedsize="true"></td>'
       ),
       f'<td colspan="2">{firstname}</td>',
       "</tr>",
       "<tr>",
-      f'<td colspan="2"><font point-size="12" color="#666666">{surname}</font></td>',
+      f'<td colspan="2"><font point-size="12" color="#ffffff">{surname}</font></td>',
       '</tr>',
       '<tr>',
-      f'<td align="left" width="60"><font point-size="10" color="#aa7777"> {born} </font></td>',
-      f'<td align="left" width="60"><font point-size="10" color="#aa7777"> {died} </font></td>',
+      f'<td align="left" width="60"><font point-size="10" color="#ffffff"> {born} </font></td>',
+      f'<td align="left" width="60"><font point-size="10" color="#ffffff"> {died} </font></td>',
       '</tr>',
       '</table>',
     ])
