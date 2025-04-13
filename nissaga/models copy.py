@@ -216,4 +216,3 @@ def draw(yamlfile, formats):
         step("Generating {}...", dotfile)
 
 
-

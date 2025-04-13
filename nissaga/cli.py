@@ -102,5 +102,5 @@ def dates(
     for date, reason in sorted(compileAniversaries(nissaga)):
         print(date, reason)
 
-
-    
+if __name__ == '__main__':
+    app()

@@ -119,3 +119,6 @@ The following features have been introduced by nissaga, and are not available in
 	- `family.notes` a string or list of strings of notes
 	- `family.docs` documentation about the family. A list of document paths relative to the yaml file. Not used yet but it is suposed to provide links to the research sources.
 
+## develop cli
+uv run -m nissaga.cli draw examples/modernfamily/modernfamily.yaml svg
+style.py change style

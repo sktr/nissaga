@@ -129,6 +129,8 @@ people:
     fullname: Dunphy, Grace
     class: [minor]
     died: 2013
+    pics:
+      - barb.png
   Barb:
     links:
       - https://modernfamily.fandom.com/wiki/Barb_Tucker
@@ -159,11 +161,12 @@ people:
     born: 1969
     pics:
       - javier.png
-styles:
-  minor:
-    style: "filled"
-    fillcolor: "#f4f4f4"
-    color: white
-  ':node':
-    width: 0
-    #shape: plain
+
+# styles:
+#   minor:
+#     style: "filled"
+#     fillcolor: "#f4f4f4"
+#     color: white
+#   ':node':
+#     width: 0
+#     #shape: plain
