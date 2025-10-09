@@ -81,6 +81,7 @@ except graphviz.backend.CalledProcessError as exception:
   - `nissaga/models.py:54` - "regardin" → "regarding"
   - `nissaga/models.py:115` - "regardin" → "regarding"
   - `nissaga/models.py:108` - "displayeed" → "displayed"
+  - `nissaga/anniversaries.py`, `nissaga/anniversaries_test.py`, `nissaga/cli.py` - "compileAniversaries" → "compileAnniversaries" (複数ファイル)
 - **改善案**: スペルチェッカーを実行し修正
 
 ## 🟢 軽微な問題・改善提案
@@ -143,7 +144,9 @@ except graphviz.backend.CalledProcessError as exception:
 **問題**: `dates` コマンドがテストモジュールから関数をインポートしている
 - **場所**: `nissaga/cli.py:100` - `from .anniversaries_test import compileAniversaries`
 - **影響**: テストコードが本番コードに依存している
-- **改善案**: `compileAniversaries` を `anniversaries.py` に移動
+- **改善案**: 
+  - `compileAniversaries` を `anniversaries.py` に移動
+  - 関数名のタイポを修正: `compileAniversaries` → `compileAnniversaries`
 
 ### 16. コメントアウトされたコード
 **問題**: コメントアウトされたコードが残っている
