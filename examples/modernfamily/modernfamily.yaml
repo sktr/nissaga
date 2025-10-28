@@ -159,8 +159,8 @@ people:
     fullname: Delgado, Javier
     class: [minor]
     born: 1969
-    # pics:
-    #   - javier.png
+    pics:
+      - javier.png
 
 # styles:
 #   minor:
