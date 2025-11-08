@@ -40,7 +40,7 @@ default_styles = ns.loads("""
 
   # 全体グラフ（digraph）の設定
   ':digraph':
-    rankdir: 'LR'           # 左から右に並べる（横並び）
+    rankdir: 'TB'           # 上から下に並べる（縦並び）
     ranksep: 0.4            # ランク間のスペース
     splines: 'ortho'        # 直角線のルーティング
     # bgcolor: '#016d3e80'

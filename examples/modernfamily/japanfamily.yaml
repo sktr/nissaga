@@ -1,0 +1,125 @@
+families:
+  - house: 佐藤家
+    families:
+      - parents: [太郎, 花子]
+        children: [一郎, 二郎]
+      - parents: [健一, 花子]
+        children: [三郎]
+        divorced: true
+  - house: 鈴木家
+    families:
+      - parents: [新一, 美咲]
+        children: [陽子, 翔太, 瑞希]
+  - house: 高橋家
+    families:
+      - parents: [誠, 彩]
+        children: [結衣]
+  - parents: [太郎, 陽子]
+    children: [新一, 誠]
+    divorced: true
+  - parents: [宏, 恵]
+    children: [新一]
+  - parents: [清子, 浩二]
+    children: [誠, 朋子]
+
+people:
+  太郎:
+    fullname: 佐藤太郎
+    born: 1945-02-12
+    pics:
+      - jay.png
+  花子:
+    fullname: 佐藤花子
+    born: 1947-07-30
+    pics:
+      - gloria.png
+  健一:
+    fullname: 佐藤健一
+    born: 1968-05-05
+    pics:
+      - phil.png
+  一郎:
+    fullname: 佐藤一郎
+    born: 1970-09-10
+    pics:
+      - joe.png
+  二郎:
+    fullname: 佐藤二郎
+    born: 1973-04-02
+    pics:
+      - manny.png
+  三郎:
+    fullname: 佐藤三郎
+    born: 1999-11-11
+    pics:
+      - javier.png
+  新一:
+    fullname: 鈴木新一
+    born: 1975-03-18
+    pics:
+      - phil.png
+  美咲:
+    fullname: 鈴木美咲
+    born: 1976-08-22
+    pics:
+      - claire.png
+  陽子:
+    fullname: 鈴木陽子
+    born: 2000-01-05
+    pics:
+      - alex.png
+  翔太:
+    fullname: 鈴木翔太
+    born: 2002-06-30
+    pics:
+      - luke.png
+  瑞希:
+    fullname: 鈴木瑞希
+    born: 2004-12-15
+    pics:
+      - haley.png
+  誠:
+    fullname: 高橋誠
+    born: 1978-11-02
+    pics:
+      - cam.png
+  彩:
+    fullname: 高橋彩
+    born: 1980-05-20
+    pics:
+      - mitchell.png
+  結衣:
+    fullname: 高橋結衣
+    born: 2010-09-14
+    pics:
+      - lily.png
+  宏:
+    fullname: 田中宏
+    class: [minor]
+    born: 1940-04-01
+    died: 2010-02-28
+    pics:
+      - frank.png
+  恵:
+    fullname: 伊藤恵
+    class: [minor]
+    born: 1942-06-06
+    died: 2005-07-07
+    pics:
+      - dede.png
+  清子:
+    fullname: 中村清子
+    class: [minor]
+    pics:
+      - barb.png
+  浩二:
+    fullname: 中村浩二
+    class: [minor]
+    pics:
+      - merle.png
+  朋子:
+    fullname: 中村朋子
+    class: [minor]
+    born: 1995-10-10
+    pics:
+      - pam.png
